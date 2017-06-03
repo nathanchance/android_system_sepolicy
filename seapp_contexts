@@ -98,3 +98,4 @@ user=_app isAutoPlayApp=true domain=autoplay_app type=autoplay_data_file levelFr
 user=_app isPrivApp=true domain=priv_app type=app_data_file levelFrom=user
 user=_app domain=untrusted_app type=app_data_file levelFrom=user
 user=system isPrivApp=true domain=interfacer seinfo=platform name=projekt.interfacer type=theme_data_file
+user=_app domain=spectrum seinfo=spectrum name=org.frap129.spectrum type=app_data_file

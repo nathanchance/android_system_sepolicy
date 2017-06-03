@@ -51,4 +51,9 @@
       <seinfo value="platform" />
     </signer>
 
+    <!-- Signing key for Spectrum -->
+    <signer signature="@SPECTRUM">
+        <seinfo value="spectrum" />
+    </signer>
+
 </policy>

@@ -1,0 +1,19 @@
+type spectrum, domain;
+
+app_domain(spectrum);
+
+get_prop(spectrum, spectrum_prop);
+set_prop(spectrum, spectrum_prop);
+
+allow spectrum accessibility_service:service_manager find;
+allow spectrum activity_service:service_manager find;
+allow spectrum audio_service:service_manager find;
+allow spectrum appops_service:service_manager find;
+allow spectrum connectivity_service:service_manager find;
+allow spectrum content_service:service_manager find;
+allow spectrum display_service:service_manager find;
+allow spectrum graphicsstats_service:service_manager find;
+allow spectrum input_method_service:service_manager find;
+allow spectrum input_service:service_manager find;
+allow spectrum surfaceflinger_service:service_manager find;
+allow spectrum uimode_service:service_manager find;
