@@ -15,5 +15,6 @@ allow spectrum display_service:service_manager find;
 allow spectrum graphicsstats_service:service_manager find;
 allow spectrum input_method_service:service_manager find;
 allow spectrum input_service:service_manager find;
+allow spectrum mount_service:service_manager find;
 allow spectrum surfaceflinger_service:service_manager find;
 allow spectrum uimode_service:service_manager find;
